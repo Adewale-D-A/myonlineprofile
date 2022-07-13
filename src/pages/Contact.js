@@ -1,3 +1,4 @@
+import React from "react";
 import ContactIcons from "./ContactIcons";
 import "./css/Contact.css";
 import emailjs from "emailjs-com";

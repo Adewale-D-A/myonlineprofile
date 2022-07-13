@@ -1,3 +1,4 @@
+import React from "react";
 import NavBar from "../components/navbar";
 import "./css/HomePage.css";
 import Typical from "react-typical";

@@ -1,3 +1,4 @@
+import React from "react";
 import "./css/Tools.css";
 import { ReactComponent as Discord } from "../static_Asset/icons/discord-brands.svg";
 import { ReactComponent as Facebook } from "../static_Asset/icons/facebook-brands.svg";

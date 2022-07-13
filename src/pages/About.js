@@ -1,3 +1,4 @@
+import React from "react";
 import "./css/About.css";
 import NavBar from "../components/navbar";
 import Img from "../static_Asset/Adewale.PNG";
