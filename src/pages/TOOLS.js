@@ -1,5 +1,5 @@
 import "./css/Tools.css";
-// import { ReactComponent as GithubIcon } from "../static_Asset/icons/github-brands.svg";
+import { ReactComponent as Bucket } from "../static_Asset/icons/iconmonstr-github-5.svg";
 import { ReactComponent as CssIcon } from "../static_Asset/icons/css3-alt-brands.svg";
 import { ReactComponent as DockerIcon } from "../static_Asset/icons/docker-brands.svg";
 import { ReactComponent as FigmaIcon } from "../static_Asset/icons/figma-brands.svg";
@@ -12,7 +12,9 @@ const Tools = () => {
   return (
     <>
       <div className="icon-bars">
-        <div className="github-svg">{/* <GithubIcon /> */}</div>
+        <div className="github-svg">
+          <Bucket />
+        </div>
         <div className="github-svg">
           <CssIcon />
         </div>
@@ -24,12 +26,6 @@ const Tools = () => {
         </div>
         <div className="github-svg">
           <GitlabIcon />
-        </div>
-        <div className="github-svg">
-          <GithubIcon />
-        </div>
-        <div className="github-svg">
-          <GithubIcon />
         </div>
         <div className="github-svg">
           <HTMLIcon />
