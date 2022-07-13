@@ -1,0 +1,12 @@
+.github-svg {
+  width: 30px;
+}
+.icon-bars {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 500px) {
+  .github-svg {
+    width: 15px;
+  }
+}

@@ -1,0 +1,117 @@
+.about-container {
+  margin: 5% 10% 0% 10%;
+}
+.about-cont-2 {
+  margin: 5% 0% 0% 5%;
+}
+.about-img {
+  width: 238px;
+  height: auto;
+  border-radius: 65px;
+  margin-right: 50px;
+}
+.about-top-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.top-txt {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+}
+.brief-intro,
+thead,
+.tools-txt {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+}
+.brief-ctn,
+tbody {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+thead {
+  text-align: left;
+}
+td {
+  padding: 0px 10px 10px 0px;
+  padding-right: 50px;
+}
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+.ab {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 15px 0px 15px;
+  /* height: 100%; */
+}
+@media only screen and (max-width: 500px) {
+  .about-container {
+    margin: 3% 5% 0% 5%;
+  }
+  .about-img {
+    width: 130px;
+    height: auto;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  .top-txt {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+  }
+  .brief-intro,
+  thead,
+  .tools-txt {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 29px;
+  }
+  thead {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .brief-ctn,
+  tbody {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  tbody {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  td {
+    padding: 0px 10px 10px 0px;
+    padding-right: 5px;
+  }
+  .skills-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 7px;
+  }
+}
