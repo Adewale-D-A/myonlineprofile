@@ -32,19 +32,34 @@ const ProjectPage = () => {
             <div className="web-dev">
               <div className="web-ctn">
                 <div className="web-dev-ctn">
-                  <h3>City Informant</h3>
+                  <h3>City Informant</h3>{" "}
+                  <a href="https://city-informant.netlify.app/" target="blank">
+                    Open
+                  </a>
                   <img src={webPage1} alt="UI face" className="web-images" />
                 </div>
               </div>
               <div className="web-ctn">
                 <div className="web-dev-ctn">
-                  <h3>Fuid Concept</h3>
+                  <h3>Fuid Concept</h3>{" "}
+                  <a
+                    href="https://dreambite.netlify.app/fuid%20concept%20page"
+                    target="blank"
+                  >
+                    Open
+                  </a>
                   <img src={webPage2} alt="UI face" className="web-images" />
                 </div>
               </div>
               <div className="web-ctn">
                 <div className="web-dev-ctn">
-                  <h3>Fuid Concept</h3>
+                  <h3>Fuid Concept</h3>{" "}
+                  <a
+                    href="https://dreambite.netlify.app/beauteous%20effect%20%20page"
+                    target="blank"
+                  >
+                    Open
+                  </a>
                   <img src={webPage3} alt="UI face" className="web-images" />
                 </div>
               </div>

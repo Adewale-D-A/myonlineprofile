@@ -3,6 +3,9 @@ import "./css/About.css";
 import NavBar from "../components/navbar";
 import Img from "../static_Asset/Adewale.PNG";
 import Tools from "./TOOLS";
+
+import resume from "../static_Asset/Resume-Adewale.pdf";
+
 const About = () => {
   return (
     <>
@@ -13,6 +16,11 @@ const About = () => {
         <div className="about-top-section">
           <img src={Img} alt="adewale" className="about-img" />
           <span className="top-txt">Hi there, I am Adewale 👋</span>
+          <div>
+            <a href={resume} download="Adewale's Resume">
+              <span className="loader-download"></span>
+            </a>
+          </div>
         </div>
         <div className="about-cont-2">
           <div>

@@ -56,6 +56,62 @@ td {
   padding: 0px 15px 0px 15px;
   /* height: 100%; */
 }
+
+/* Download css styling */
+.loader-download {
+  width: 48px;
+  height: 12px;
+  background: rgb(48, 112, 131);
+  margin-top: 40px;
+  display: inline-block;
+  position: relative;
+}
+.loader-download::after {
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  position: absolute;
+  border: 15px solid transparent;
+  border-top-color: rgb(48, 112, 131);
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+.loader-download::before {
+  content: "";
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%, 0);
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  background: rgb(48, 112, 131);
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes bump {
+  0% {
+    transform: translate(-50%, 5px);
+  }
+  100% {
+    transform: translate(-50%, -5px);
+  }
+}
+.loader-download:hover {
+  cursor: pointer;
+  background-color: rgb(95, 216, 111);
+}
+.loader-download:hover::before {
+  cursor: pointer;
+  color: rgb(95, 216, 111);
+  background: rgb(95, 216, 111);
+  background-color: rgb(95, 216, 111);
+}
+.loader-download:hover::after {
+  cursor: pointer;
+  border-top-color: rgb(95, 216, 111);
+}
 @media only screen and (max-width: 500px) {
   .about-container {
     margin: 3% 5% 0% 5%;
